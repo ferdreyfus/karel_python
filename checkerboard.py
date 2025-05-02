@@ -2,6 +2,14 @@ from karel.stanfordkarel import *
 
 """
 Karel should fill the whole world with beepers.
+
+This program fills boards of corners with checkerboard patterns.
+
+Functions for scanning surroundings based on fulfilled conditions, and functions for even and odd horizontal row filling.
+
+It has case considerations for different size boards and uses the 4 basic Karel movement functions implemented in various helper functions
+
+Week 2 of Stanford CIP5 2025 course.
 """
 
 def main():
